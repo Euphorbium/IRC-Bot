@@ -9,7 +9,7 @@ botnick = "IamaPythonBot" # Your bots nick
 adminname = "OrderChaos" #Your IRC nickname.
 exitcode = "bye " + botnick
 
-print("Iniaialized variables")
+print("Initialized variables")
 
 ircsock.connect((server, 6667)) # Here we connect to the server using the port 6667
 print("Connection Successful")
